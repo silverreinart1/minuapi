@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #222777, #777222);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #777222;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #222777;
+    transform: scale(1.05);
+}
+
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    text-align: left;
+    max-width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+#output div {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.2s ease;
+}
+
+#output div:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f2f2f2;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0 0 5px 0;
+    color: #777222;
+}
+
+.loading {
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    margin-top: 20px;
+}
